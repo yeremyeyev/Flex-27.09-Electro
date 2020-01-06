@@ -1,0 +1,214 @@
+
+.header-up {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #0075bf;
+	max-width: 2000px;
+  font-family: Arial, Helvetica, sans-serif;	
+  color: white;
+}
+.address {
+	max-width: 800px;
+	border-right: 1px solid #359cdc;	 
+}
+.mail {
+	max-width: 210px;
+	border-right: 1px solid #359cdc;	
+}
+.phone {
+	max-width: 379px;
+}
+.language {
+  min-width: 40px;
+  min-height: 35px;
+	border:2px solid #359cdc;
+  margin: 1vh;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.language:hover{
+  background: yellow;
+  color: blue;
+}
+.address, .mail, .phone {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1vw;
+  padding-right: 1vw;  
+}
+.header-middle {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+  align-items: center;
+	background: #f1f1f1;
+	font-size: 35px;
+	font-weight: bold;
+	color: #0075bf;
+	height: 120px;
+	max-width: 2000px;	
+	font-family: Arial, Helvetica, sans-serif;
+}
+.header-down {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+  align-items:; 
+  height: 50px;
+	max-width: 2000px;
+  color: #56789f;
+  background: #f8f8f8;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.header-down-element{
+	border-left: 1px solid #e5e5e5;	
+	padding:20px 45px;
+	font-size: 15px;
+}
+.header-down-element > a {
+	text-decoration: none;
+}
+.header-down-element:hover{
+  box-shadow: inset  0px -15px 0px 0px yellow;
+}
+.slider1 {
+	max-height:513px;
+	max-width: 2000px;
+	margin: 0px auto; 
+}
+a{
+  text-decoration: none;
+}
+.sl__slide{
+  position: inherit;
+  max-width: 2000px;
+  max-height: 610px;
+  margin: 0px auto; 
+  overflow: hidden;
+}
+.slick-dots li.slick-active button:after {
+  opacity: .75;
+  color: blue;
+  font-size: 5px;
+}
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 15px;
+  line-height: 20px;
+  position: absolute;
+  left: 0;   /*не нужен */
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: 1;
+  color: white;
+}
+.slick-dots {
+  bottom: 30px;
+}
+.slider2 {
+	max-width: 2000px;
+	height: 400px;
+	background: #f5f5f5;
+}
+.sl2{
+  margin: 40px 70px 0;
+}
+.sl2__slide{
+  margin: 15px 15px;
+  outline: none;
+}
+.sl2__slide img{
+  padding: 3px;
+  background: #fffbfb00;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-transition: background .3s;
+  -o-transition: background .3s;
+  transition: background .3s;
+}
+.search > i {
+  opacity: 0;
+}
+.fa-search {
+
+  font-size:65px;
+  background: #1199ef47; 
+  background-size: contain;
+  padding: 102px; /* Поля */
+  color: white; /* Цвет иконки */
+  position: absolute;
+}
+.search i:hover{
+  opacity: 1;
+}
+/*Адаптивность картинок */
+.sl2-img{
+  max-width: 100%;
+  height: auto;
+  box-shadow: 17px 11px 11px 0px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+.slick-prev:after {
+  content: "⟨";
+  color: lightblue;
+  font-size: 100px;
+  margin-left: -15px;
+}
+.slick-next:before {
+  content: "⟩";
+  color: lightblue;
+  font-size: 100px;
+}
+.slick-prev:before, .slick-next:before {
+  line-height: 0;
+}
+.slick-prev:before {
+  content: none;
+}
+.our-partners {
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	margin: 0px 0px 33px 0px;
+}
+.our-part-img {
+	max-width: 100%;
+	border: 1px solid lightgrey;
+}
+footer {
+  height: 75px;
+  background-image: url('../img/footer/img-footer-back.png');
+  position: relative; 
+  text-decoration: none;
+}
+.layer {
+  background-color: rgba(130, 204, 225, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1vw;
+}
+.footer a:-webkit-any-link {
+  color: black;
+  }
+.f-email, .f-phone, .fb-vk, .call-back, .iWorks  {
+  z-index: 100;
+}

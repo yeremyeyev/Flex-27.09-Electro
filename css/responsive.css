@@ -1,0 +1,140 @@
+@media (max-width: 1850px) {
+.fa-search {
+  padding: 96px; /* Поля */
+}
+}
+@media (max-width: 1778px) {
+.fa-search {
+  padding: 90px; /* Поля */
+}
+}
+@media (max-width: 1700px) {
+.fa-search {
+  padding: 83px; /* Поля */
+}
+}
+@media (max-width: 1600px) {
+.fa-search {
+  padding: 75px; /* Поля */
+}
+}
+@media (max-width: 1500px) {
+.fa-search {
+  padding: 67px; /* Поля */
+}
+}
+@media (max-width: 1400px) {
+.fa-search {
+  padding: 58px; /* Поля */
+}
+}
+@media (max-width: 1300px) {
+.fa-search {
+  padding: 50px; /* Поля */
+}
+}
+@media (max-width: 1200px) {
+.fa-search {
+  padding: 42px; /* Поля */
+}
+}
+@media (max-width: 1100px) {
+.fa-search {
+  padding: 33px; /* Поля */
+}
+}
+@media (max-width: 100px) {
+.fa-search {
+  padding: 25px; /* Поля */
+}
+}
+@media (max-width: 900px) {
+.fa-search {
+  font-size: 40px;		
+  padding: 41px; /* Поля */
+}
+.header-down-element{
+  padding: 10px;
+  font-size: 15px;
+}
+
+}
+@media (max-width: 800px) {
+.fa-search {
+  font-size: 40px;		
+  padding: 34px; /* Поля */
+}
+}
+@media (max-width: 750px) {
+.fa-search {
+  font-size: 40px;		
+  padding: 40px; /* Поля */
+}
+}
+@media (max-width: 700px) {
+	.fa-search {
+    font-size: 40px;
+    padding: 46px;
+}
+}
+@media (max-width: 600px) {
+.fa-search {
+  font-size: 40px;		
+  padding: 40px; /* Поля */
+}
+}
+@media (max-width: 500px) {
+.fa-search {
+  font-size: 40px;		
+  padding: 34px; /* Поля */
+}
+.slick-prev:after {
+  font-size: 60px;
+  margin-left: -15px;
+}
+
+.slick-next:before {
+  font-size: 60px;
+}
+}
+@media (max-width: 400px) {
+.fa-search {
+  font-size: 10px;		
+  padding: 22px; /* Поля */
+}
+.slick-prev:after {
+  font-size: 60px;
+  margin-left: -15px;
+}
+
+.slick-next:before {
+  font-size: 60px;
+}
+}
+@media (max-width: 320px) {
+.fa-search {
+  font-size: 4px;		
+  padding: 11px; /* Поля */
+}
+.slick-prev:after {
+  font-size: 40px;
+  margin-left: -15px;
+}
+
+.slick-next:before {
+  font-size: 40px;
+}
+}
+
+.header-down
+}
+
+
+
+
+
+
+
+
+
+
